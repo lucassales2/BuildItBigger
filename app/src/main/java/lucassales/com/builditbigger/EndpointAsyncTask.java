@@ -17,7 +17,7 @@ import java.io.IOException;
 public class EndpointAsyncTask extends AsyncTask<Void, Void, String> {
 
 
-    private static final String BACKEND_IP_ADRESS = "http://192.168.0.2:8080/_ah/api/";
+    private static final String BACKEND_IP_ADRESS = "http://10.0.2.2:8080/_ah/api/";
     public static final String ERROR_TAG = "ERROR ";
     private static JokeApi jokeApi;
 
